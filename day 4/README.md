@@ -1,4 +1,4 @@
-# JavaScript -- Day 3 Notes
+# JavaScript -- Day 4 Notes
 
 ## 📌 Topics Covered
 
