@@ -6,5 +6,4 @@ let ans=  0;
     ans += i
     i += 1
  } 
- 
   console.log (ans)
