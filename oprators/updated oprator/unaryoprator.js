@@ -46,7 +46,7 @@ let y = ++b;
 
 console.log(b, y);
 
-//same for a--
+//same for a-- 
 
 
 let c = 10;
@@ -59,9 +59,12 @@ console.log(c, p);
 + --> (unary plus) ---> it tries to converts the variables into numbers if it is not already a no. 
  eg., 
  let x="22";
- +x;
+let q=+x;
 
- typeof x --> number
+// it doesnt chnage the original oprand but instead returns a converted value
+
+ typeof y --> number
+ typeof x --> string
 */
 
  let x="22";
@@ -70,3 +73,18 @@ let = +x;
  console.log( typeof x)
  console.log( typeof y)
 
+//(-)--> unary minus
+// it also converts  the oprands into number bbut always convert number into negitave
+
+ let d="22";
+let r = -d;
+
+ console.log( r)
+ 
+ console.log( typeof r)
+
+ // type of is also a unary oprator
+
+ let e =undefined;
+
+ console.log(typeof e)
