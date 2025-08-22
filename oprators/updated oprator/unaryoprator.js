@@ -18,11 +18,11 @@ y=a++
 
 
 let a = 10;
-z=a++
-console.log( a,z);
+z = a++
+console.log(a, z);
 
 a++;
-console.log( a,z);
+console.log(a, z);
 
 
 /*
@@ -38,14 +38,35 @@ let a=10;
 let y=++a;
 
 console.log(a,y);
-
-
-
-
 */
 
 
-let b=10;
-let y=++b;
+let b = 10;
+let y = ++b;
 
-console.log(b,y);
+console.log(b, y);
+
+//same for a--
+
+
+let c = 10;
+let p = c--;
+
+console.log(c, p);
+
+
+/*
++ --> (unary plus) ---> it tries to converts the variables into numbers if it is not already a no. 
+ eg., 
+ let x="22";
+ +x;
+
+ typeof x --> number
+*/
+
+ let x="22";
+let = +x;
+
+ console.log( typeof x)
+ console.log( typeof y)
+
