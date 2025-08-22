@@ -1,45 +1,42 @@
-// // given a value n(positive integer),
-// //print the following pattern on the screen 
+// given a value n(positive integer),
+//print the following pattern on the screen 
 
-// // we have to print nxn grid
-
-
-// // let stars = "";
-
-// // stars += "*"
-// // stars += "*"
-// // stars += "*"
-// // stars += "*"
-// // stars += "*"
-
-// // console.log(stars)
+// we have to print nxn grid
 
 
-// function pattern(n){
-// for (let row = 1; row <= n; row++) {
-//     //task
-//     //the task is to contaatinate "* " n times
-//     let star = "";
-//     for (let col = 1; col <= n;  col++) {
-//         star += "*";
+// let stars = "";
 
-//     }
-//     console.log(star)
-// }
+// stars += "*"
+// stars += "*"
+// stars += "*"
+// stars += "*"
+// stars += "*"
 
-// }
-
-// pattern(6);
-// pattern(8);
+// console.log(stars)
 
 
-// // let x= "abc"
-// // let y= "def"
-// //let z= "xyz"
+function pattern(n){
+for (let row = 1; row <= n; row++) {
+    //task``
+    //the task is to contaatinate "* " n times
+    let star = "";
+    for (let col = 1; col <= n;  col++) {
+        star += "*";
 
-// // let  r= x+y
+    }
+    console.log(star)
+}
+
+}
+
+pattern(6);
+pattern(8);
 
 
-let x= 2;
+// let x= "abc"
+// let y= "def"
+//let z= "xyz"
 
-console.log(x+=3);
+// let  r= x+y
+
+

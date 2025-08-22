@@ -12,7 +12,7 @@ eg x=3, x=5
 
 
 
-
+/
 */
 function isprime(x) {
     if (x <= 1) return false; 
