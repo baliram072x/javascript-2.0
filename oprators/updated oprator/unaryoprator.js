@@ -83,7 +83,7 @@ let r = -d;
  
  console.log( typeof r)
 
- // type of is also a unary oprator
+//  // type of is also a unary oprator
 
  let e =undefined;
 
