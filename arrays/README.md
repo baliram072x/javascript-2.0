@@ -9,4 +9,4 @@ eg., hiearchey ---> folder structure
  
 arrays ---> arrays actually stores the data  in linear contigious oriantation in the memory
 
-
+js arrays supports hetrogenous value eg., false , boolean , true
