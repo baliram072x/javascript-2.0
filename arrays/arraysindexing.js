@@ -1,0 +1,7 @@
+/* individual element of the arrays has got unique indexes 
+starting from zero
+
+strings in js are immutable
+arryas are mutable
+
+*/
