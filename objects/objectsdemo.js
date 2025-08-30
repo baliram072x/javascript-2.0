@@ -5,7 +5,8 @@ let x = {
 }
 let y = {
     name: "shiv ",
-    age: 25
+    age: 25, 
+    mark: 23
 }
 
 // acess any value using the key
@@ -25,3 +26,15 @@ console.log(x.age)
 
 y.name="tanmay"
 console.log(y)
+
+//how to dd new property to already created object
+
+x.mark=100; //if mark key is present it will update otherwise it adds it
+x["company"] ="google";
+console.log(x)
+
+//delete key value pair
+//we can use delete oprator 
+
+delete x.name;
+console.log(x)
