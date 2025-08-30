@@ -6,7 +6,7 @@
 
 let x = [];
 
-var y =[ 1,2,4,6,false , true, null];
+var y =[ 1,2,4,6,false , true, null,undefined , NaN];
 
 let z=[ "ab" ,"cd", "dc"]
 
